@@ -15,10 +15,6 @@ a {
   color: var(--green);
 }
 
-img {
-  width: 200px,
-    height 100px
-}
 
 body {
   background-color: var(--beige);
