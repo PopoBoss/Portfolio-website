@@ -11,6 +11,9 @@
   --padding: 20px;
 }
 
+a {
+  color: var(--green);
+}
 
 body {
   background-color: var(--beige);
