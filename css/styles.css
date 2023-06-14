@@ -17,7 +17,7 @@ a {
 
 img {
   width: 400px,
-    height: auto
+    height 300px
 }
 
 body {
@@ -224,19 +224,7 @@ button:focus,
   opacity: 0.8;
 }
 
-@keyframes color-change {
-  0% {
-    fill: var(--yellow);
-  }
 
-  50% {
-    fill: #var(--lightyellow);
-  }
-
-  100% {
-    fill: var(--orange);
-  }
-}
 
 .sun {
   animation: 4s color-change infinite alternate linear;
