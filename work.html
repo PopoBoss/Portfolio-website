@@ -32,93 +32,101 @@
       </ul>
     </nav>
   </header>
-  <section>
-    <h1>My Work</h1>
-    <div class="project-intro">
-      <p>Hi! So coding has been a bit challenging but loving every second of it. So far, my favorite achievement
-        has to be the Pokedex. Looking forward to what the next achievement will be like!
-      </p>
-    </div>
-    <div class="project-grid__item">
-      <h3>Meet-App<br>PWA using React</h3>
-      <p>
-        To build a serverless, progressive web application (PWA) with React using a
-        test-driven development (TDD) technique. The application uses the Google
-        Calendar API to fetch upcoming events!
-      </p>
-      <a href="https://Popoboss.github.io/meet/"><img class="project-grid__image" src="img/meetapp.jpg" width="400"
-          height="200" alt="image of and link to my PWA 'Meet-App'"></a>
-    </div>
-    <div class="project-list__item">
-      <img src="img/Pokedex2.jpg" alt="Pokedéx printscreen" />
-      <h2>Pokédex</h2>
-      <p>Small Pokedéx app (web application with HTML, CSS, and JavaScript) that loads data from an external source
-        (API), displays a list of Pokemón and enables the user to view details for each Pokémon.</p>
-      <h4>Objective</h4>
-      <ul class="objectives">
-        <li>Build a small web application with HTML, CSS and JavaScript that loads data from an external API and
-          enables viewing of data points in detail.</li>
-      </ul>
-      <!-- <h4>List of the technologies used</h4> -->
-      <ul class="tech">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Bootstrap</li>
-        <li>Prettier</li>
-      </ul>
-      <br />
-      <div class="links">
-        <a href="https://github.com/Popoboss/Pokedex_app/" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://Popoboss.github.io/Pokedex_app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="grid">
+        <div class="grid-item">
+          <img src="img/Pokedex.jpg" alt="" />
+          <div class="grid-info">
+            <h1>Pokedex</h1>
+            <p>
+              This Pokédex is a web application built with HTML, CSS, and
+              primarily JavaScript, which loads data from an external API and
+              enables the viewing of that data in detail.
+            </p>
+            <div id="grid-footer">
+              <a href="https://github.com/Popoboss/Pokedex_app">View code on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="img/movieapi.jpg" alt="" />
+          <div class="grid-info">
+            <h1>MyFlix API</h1>
+            <p>
+              This API is the server-side component of a movies web
+              application. The web application provides users with access to
+              information about different movies, the director, and genres.
+            </p>
+            <div id="grid-footer">
+              <a href="https://github.com/Popoboss/movie_api">View code on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="img/Myflixclient.jpg" alt="" />
+          <div class="grid-info">
+            <h1>React MyFlix</h1>
+            <p>
+              This single-page, responsive application (SPA) is the
+              client-side for an application called myFlix based on its
+              existing server-side code (REST API and database).
+            </p>
+            <div id="grid-footer">
+              <a href="https://github.com/Popoboss/myFlix-client">View code on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="img/meetapp2.jpg" alt="" />
+          <div class="grid-info">
+            <h1>Meet App</h1>
+            <p>
+              Meet App is a serverless, progressive web application (PWA)
+              built with React using a test-driven development (TDD)
+              technique. The application uses the Google Calendar API to fetch
+              upcoming events.
+            </p>
+            <div id="grid-footer">
+              <a href="https://github.com/alexapenzes/meet">View code on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="img/mobile.jpg" alt="" />
+          <div class="grid-info">
+            <h1>Chatapp</h1>
+            <p>
+              Chat App was built for mobile devices using React Native. The
+              app provides users with a chat interface and options to share
+              images and their location.
+            </p>
+            <div id="grid-footer">
+              <a href="https://github.com/Popoboss/chat-app">View code on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="img/Angular.jpg" alt="" />
+          <div class="grid-info">
+            <h1>MyFlix Angular</h1>
+            <p>
+              Utilizing the same movie API as with the React app, this SPA is
+              built with Angular.
+            </p>
+            <div id="grid-footer">
+              <a href="https://github.com/Popoboss/myFlix-Angular-client">View code on Github</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="project-grid__item">
-      <h3>MyFlix<br>Back-End</h3>
-      <p>
-        Building a server-side component of a “movies” web application. The web
-        application will provide users with access to information about different
-        movies, directors, and genres. Users will be able to sign up, update their
-        personal information, and create a list of their favorite movies.
-      </p>
-      <a href="https://github.com/Popoboss/movie_api"><img class="project-grid__image" src="img/movieapi.jpg"
-          width="400" height="200" alt="image of and link to my 2nd project, the backend for my MyFlix app"></a>
-    </div>
-    <div class="project-grid__item">
-      <h3>MyFlix 3<br>Front End - React</h3>
-      <p>
-        Using React, build the client-side for an app called myFlix based on its
-        existing server-side code (REST API and database).
-      </p>
-      <a href="https://github.com/Popoboss/myflix-client"><img class="project-grid__image" src="img/myflixclient.jpg"
-          width="400" height="200"
-          alt="image of and link to my 3rd project, the Front End of my MyFlix project, made using React"></a>
-    </div>
-    <div class="project-grid__item">
-      <h3>MyFlix 3<br>Mobile Chat App</h3>
-      <p>
-        Building a chat app for mobile devices using React Native. The app will
-        provide users with a chat interface and options to share images and their
-        location.
-      </p>
-      <a href="https://github.com/Popoboss/chat-app"><img class="project-grid__image" src="img/mobile.jpg" width="400"
-          height="200"
-          alt="image of and link to my 3rd project, the Front End of my MyFlix project, made using React"></a>
-    </div>
-    <div class="project-grid__item">
-      <h3>MyFlix 3<br>Angular Flix App</h3>
-      <p>
-        Using Angular, I built the client-side for an application called myFlix based on
-        its existing server-side code (REST API and database), with supporting
-        documentation.
-      </p>
-      <a href="https://github.com/Popoboss/myFlix-Angular-client"><img class="project-grid__image" src="img/Angular.jpg"
-          width="400" height="200"
-          alt="image of and link to my 3rd project, the Front End of my MyFlix project, made using React"></a>
-    </div>
-    </div>
   </section>
+
   <footer class="page-footer">
     <p>Find me on</p>
     <!-- Github logo -->
